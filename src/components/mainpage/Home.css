@@ -1,0 +1,154 @@
+.home {
+    margin-top: 20px;
+}
+
+
+.homeSlider{
+   width: 100%;
+   margin: 1rem;
+   margin-top: 2rem;
+   background-image: linear-gradient(rgba(107, 109, 114, 0.7),rgba(204, 211, 243, 0.7)),url('./nature.jpg');
+
+
+}
+
+
+
+.secondDesign{
+    display: none;
+}
+
+.homeSlider h1 {
+    font-size: 2rem;
+}
+
+.homeSlider p {
+    margin: 20px 0;
+}
+
+.homeSlider .sliderCard .left{
+    width: 60%;
+ display: flex;
+ flex-direction: column;
+ float: left;
+}
+
+.homeSlider .sliderCard .left button{
+    margin-top: 2rem;
+}
+
+
+
+.homeSlider .box img {
+    width:37vh;
+    height:45vh;
+} 
+
+
+/*-----------------------------------------category-----------------------------------------------*/
+
+
+
+.category {
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: auto;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin: auto;
+
+  }
+  
+  .category img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  
+  }
+  
+  .category span {
+    margin: 10px 20px;
+    text-transform: capitalize;
+  }
+  
+  .category .childOfCategory {
+    transition: 0.5s;
+    padding: 0 20px;
+  
+  }
+  
+  .category .childOfCategory:hover {
+    background-color: #ffe1ef;
+    cursor: pointer;
+  }
+
+
+
+
+/* Responsive Codes */
+
+
+@media screen and (max-width: 1100px){
+
+
+    .category .childOfCategory span{
+               display: none;
+           }
+
+    .category .childOfCategory img{
+        margin-bottom: .5rem;
+    }
+                
+} 
+
+@media screen and (max-width: 930px){
+    .homeSlider .sliderCard .left h1{
+        font-size: 1.5rem;
+    }
+
+    .homeSlider .sliderCard .left button{
+        margin-bottom: 4rem ;
+    }
+                
+} 
+
+
+@media screen and (max-width: 800px){
+
+
+    .category{
+        display: none;
+    }
+                
+} 
+
+
+@media screen and (max-width: 700px){
+
+    .secondDesign{
+        display: block;
+    }
+    .firstDesign{
+        display: none;
+    }
+
+    .homeSlider{
+        margin-top: 2rem;
+     }
+
+     .homeSlider .sliderCard .left{
+        width: 90%;
+    }
+
+    .homeSlider .sliderCard .left p{
+        display: none;
+    }
+     
+    .homeSlider .sliderCard .left button{
+        margin-top: 2rem ;
+        margin-bottom: 1rem ;
+
+    }
+
+} 
+

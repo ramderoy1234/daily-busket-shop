@@ -1,0 +1,481 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.contact .contact-content {
+    display: flex;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact_header h1 {
+    color: #e94560;
+}
+
+.contact_header p {
+    opacity: .7;
+    margin-top: .3rem;
+}
+
+
+.contact .contact-content .pic_Area .back_Img {
+    position: relative;
+}
+
+/* Pic area hover handel */
+
+.pic_Area:hover .back_Img .info .contact-info a .ChaildOfCon_info p {
+    opacity: 1;
+}
+
+.ChaildOfCon_info {
+    transition: .3s;
+}
+
+.ChaildOfCon_info:hover {
+    transform: scale(1.05);
+}
+
+
+
+.contact .contact-content .pic_Area .back_Img img {
+    border-radius: 5px;
+    width: 18rem;
+}
+
+.contact .contact-content .pic_Area .back_Img .info {
+    position: absolute;
+    top: 0;
+}
+
+.back_Img .info {
+    color: #fff;
+    padding: .8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.back_Img .info .top_head_info h2 {
+    font-size: 18px;
+}
+
+.back_Img .info .top_head_info p {
+    opacity: .7;
+    margin-top: .6rem;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+
+/*  Mid div code from here */
+
+.back_Img .info .contact-info {
+    margin-top: 11.5rem;
+}
+
+.back_Img .info .contact-info a {
+    color: #fff;
+}
+
+.back_Img .info .contact-info a .ChaildOfCon_info {
+    display: flex;
+    margin-top: .7rem;
+}
+
+.back_Img .info .contact-info a .ChaildOfCon_info i {
+    color: #6349e3;
+}
+
+.back_Img .info .contact-info a .ChaildOfCon_info p {
+    opacity: .8;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+
+/* last div code from here */
+
+.back_Img .info .social_links {
+    margin-top: 2.6rem;
+}
+
+.back_Img .info .social_links a {
+    color: #fff;
+}
+
+.back_Img .info .social_links a:not(:first-child) {
+    margin-left: .5rem;
+}
+
+.back_Img .info .social_links a i {
+    border-radius: 50%;
+    padding: .3rem;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.back_Img .info .social_links a i:hover {
+    transform: scale(1.1);
+    background-color:  #6349e3;
+}
+
+
+/* Form css start here */
+
+.contact .contact-content .form_Area {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0 1rem;
+}
+
+
+
+
+.contact .contact-content .form_Area .row {
+    display: flex;
+}
+
+.contact .contact-content .form_Area .row:not(:first-child) {
+    margin-top: 2rem;
+}
+
+
+
+
+.form_Area .row .input_Div:nth-child(even) {
+    margin-left: 2rem;
+}
+
+.form_Area .row .input_Div label {
+    font-size: 15px;
+}
+
+.form_Area .row .input_Div input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form_Area .row .input_Div label{
+    color: #0f3460;
+}
+
+.form_Area .row .input_Div input {
+    color: #0f3460;
+    padding: .5rem 0rem;
+    width: 25rem;
+    border-bottom: 2px solid gray;
+}
+
+.form_Area .row .input_Div input::placeholder {
+    opacity: .6;
+}
+
+/* big text css */
+
+.contact .contact-content .form_Area .big_Input_Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_Area .big_Input_Div label {
+  color: #0f3460;
+}
+
+.form_Area .big_Input_Div input {
+    color: #0f3460;
+    width: 52rem;
+    padding: .8rem 0rem;
+    border-bottom: 2px solid gray;
+}
+
+.form_Area .big_Input_Div input::placeholder {
+    opacity: .6;
+}
+
+
+
+/* submit btn work */
+
+.form_Area .submit_Bth {
+    color: #fff;
+    background-color:  #6349e3;
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 3rem;
+    transition: .3s;
+    border: 3px solid transparent;
+    margin-right: .55rem;
+}
+
+.form_Area .submit_Bth:hover {
+    color:  #6349e3;
+    background-color: #fff;
+    border: 3px solid  #6349e3;
+
+}
+
+input[type=submit] {
+    float: right;
+}
+
+
+/* background shadow */
+
+.contact .contact-content .pic_Area .back_Img .backgroud-shadow {
+    top: 0;
+    position: absolute;
+    width: 18rem;
+    height: 25.5rem;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: .15;
+}
+
+
+
+
+/* Let's Responsive */
+
+
+@media screen and (max-width:1500px) {
+
+    .form_Area .row .input_Div input {
+        width: 24rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 50rem;
+    }
+}
+
+
+@media screen and (max-width:1450px) {
+
+    .form_Area .row .input_Div input {
+        width: 22rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 45rem;
+    }
+}
+
+@media screen and (max-width:1350px) {
+
+    .form_Area .row .input_Div input {
+        width: 20rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 41.5rem;
+    }
+}
+
+@media screen and (max-width:1300px) {
+
+    .form_Area .row .input_Div input {
+        width: 18rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 37rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+
+    .form_Area .row .input_Div input {
+        width: 16rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 34rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .form_Area .row .input_Div input {
+        width: 15rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 32rem;
+    }
+}
+
+
+
+@media screen and (max-width:1030px) {
+
+    .form_Area .row .input_Div input {
+        width: 12rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 26rem;
+    }
+
+    .contact .contact-content .form_Area {
+        margin-left: .5rem;
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .pic_Area {
+        margin-bottom: 2rem;
+    }
+
+    .contact .contact-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .form_Area .row .input_Div input {
+        width: 18rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 38rem;
+    }
+
+    .form_Area .submit_Bth {
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:830px) {
+
+    .form_Area .row .input_Div input {
+        width: 16rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 34rem;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+
+    .form_Area .row .input_Div input {
+        width: 14rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 30rem;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .contact .contact-content .form_Area .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form_Area .row .input_Div:nth-child(even) {
+        margin-left: 0rem;
+    }
+
+    .contact .contact-content .form_Area .row:not(:first-child) {
+        margin-top: 0rem;
+    }
+
+    .form_Area .input_Div {
+        margin-top: 2rem;
+    }
+
+    .form_Area .big_Input_Div label {
+        margin-top: 2rem;
+    }
+
+
+    .form_Area .row .input_Div input {
+        width: 25rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 25rem;
+    }
+
+ 
+}
+
+
+@media screen and (max-width:560px) {
+
+    .form_Area .row .input_Div input {
+        width: 22rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 22rem;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .form_Area .row .input_Div input {
+        width: 19rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 19rem;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .form_Area .row .input_Div input {
+        width: 18rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 18rem;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+
+    .form_Area .row .input_Div input {
+        width: 17rem;
+    }
+
+    .form_Area .big_Input_Div input {
+        width: 17rem;
+    }
+
+}

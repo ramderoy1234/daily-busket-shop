@@ -1,0 +1,50 @@
+.heading img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.arrivalsCart{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media screen and (max-width:1190px){
+    .arrivalsCart{
+     grid-template-columns: repeat(4, 1fr);
+    }
+    
+ 
+ }
+
+@media screen and (max-width:850px){
+   .arrivalsCart{
+    grid-template-columns: repeat(3, 1fr);
+   }
+
+}
+
+@media screen and (max-width:650px){
+    .arrivalsCart{
+     grid-template-columns: repeat(2, 1fr);
+    }
+ 
+ }
+
+.newarrivals h4{
+   font-weight: 400;
+}
+
+.newarrivals span{
+    color: #6349e3;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newarrivals .box img{
+    width: 10rem;
+    height: 10rem;
+}
+
+
